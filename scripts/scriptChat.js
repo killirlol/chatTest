@@ -5,7 +5,7 @@ const message_area = document.getElementsByClassName("message_area")
 const button = document.getElementById("send_btn");
 
 button.addEventListener("click", function() {
-  console.log("Button clicked!");
+  alert("Button clicked!");
 });
 
 // function press(){
