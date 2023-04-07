@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style.css')}}">
+</head>
+<body>
+    <div class="container">
+        <label for="register_input1">Введите почту</label>
+        <input type="text" class="input_field" id="register_input1" name="user_name" autocomplete="off" placeholder="Введите почту">
+        <label>Введите пароль</label>
+        <input type="password" class="input_field" id="register_input3" name="user_password" autocomplete="off" placeholder="Ведите пароль">
+        <button type="submit">Enter</button>
+        <button type="submit"><a hraf = "http://localhost:80/register">Регистрация</a></button>
+        <button type="submit"><a hraf = "http://localhost:80/password">Востановить пароль</a></button>
+    </div>
+</body>
+</html>

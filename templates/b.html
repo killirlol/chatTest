@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style.css')}}">
+</head>
+<body>
+    <div class = "container_reg">
+        <!-- <div class = "Nick_account">
+            <input type="text" class="input_field" autocomplete="off" placeholder="Придумайте ник (не изменяемый)">
+        </div>
+        <div class = "passford_account">
+            <input type="text" class="input_field" autocomplete="off" placeholder="Ведите пароль">
+        </div>
+        <div class = "press_F">
+            <button type="submit">
+                <p class = "button_text">Enter</p>
+            </button>
+        </div> -->
+        <!-- <img src="{{url_for('static', filename='img_img/foto.jpg')}}" alt="" class="fon"> -->
+        <form method="post">
+            <label for="register_input1">Введите почту</label>
+            <input type="text" class="input_field" id="register_input1" name="user_name" autocomplete="off" placeholder="Введите почту">
+            <label for ="register_input2">Введите ник </label>
+            <input type="text" class="input_field" id="register_input2" name="User" autocomplete="off" placeholder="Придумайте ник">
+            <label>Введите пароль</label>
+            <input type="password" class="input_field" id="register_input3" name="user_password" autocomplete="off" placeholder="Ведите пароль">
+            <button type="submit">Enter</button>
+        </form>
+    </div>
+</body>
+</html>
